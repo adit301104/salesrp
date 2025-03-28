@@ -46,7 +46,7 @@ const Home = () => {
                 <span className="truncate">My Data</span>
               </button>
             </Link>
-            <Link to="/login" className="block w-full">
+            <Link to="/" className="block w-full">
               <button
                 onClick={() => setActiveButton("Logout")}
                 className={`flex items-center w-full text-base md:text-lg font-medium py-2 md:py-3 px-3 md:px-4 rounded transition-colors ${
